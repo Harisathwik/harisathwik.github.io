@@ -19,7 +19,7 @@ The ask wasn't "build an AI chatbot." It was: **when a new ticket arrives, show 
 
 ## How I Approached It
 
-I spent the first week with the support team before writing any code. I sat in on ticket triage, read through closed ticket histories, and asked engineers to show me cases where they *wished* they'd found something faster.
+I spent the first week with the support team before writing any code. I sat in on ticket triage, read through closed ticket histories, and asked engineers to show me cases where they _wished_ they'd found something faster.
 
 That surfaced two things the spec hadn't mentioned:
 
@@ -65,4 +65,4 @@ Building evaluation infrastructure before retrieval infrastructure saved the pro
 
 ---
 
-*Built at Softeon. Source code is proprietary.*
+_Built at Softeon. Source code is proprietary._

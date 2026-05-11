@@ -45,11 +45,11 @@ We tracked RAGAS faithfulness in CI. Below threshold = no deploy. This forced us
 
 ## Results
 
-| Metric | Before | After |
-|--------|--------|-------|
-| RAGAS Faithfulness | 0.67 | 0.91 |
-| Unsupported claim rate | ~18% | < 4% |
-| Tenants served | — | 500+ enterprise |
+| Metric                 | Before | After           |
+| ---------------------- | ------ | --------------- |
+| RAGAS Faithfulness     | 0.67   | 0.91            |
+| Unsupported claim rate | ~18%   | < 4%            |
+| Tenants served         | —      | 500+ enterprise |
 
 ---
 
@@ -59,4 +59,4 @@ The cross-encoder reranking added latency that occasionally caused timeouts unde
 
 ---
 
-*Built at Softeon. Source code is proprietary.*
+_Built at Softeon. Source code is proprietary._

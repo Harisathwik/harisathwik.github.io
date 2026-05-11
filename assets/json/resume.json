@@ -93,37 +93,36 @@
       "level": "",
       "icon": "fa-solid fa-brain",
       "keywords": [
-        "LangChain", "LangGraph", "LangSmith", "Custom Agent Frameworks",
-        "RAGAS", "OpenAI API", "Claude", "AWS Bedrock",
-        "Hybrid Retrieval", "Grounding Validation", "Cohere"
+        "LangChain",
+        "LangGraph",
+        "LangSmith",
+        "Custom Agent Frameworks",
+        "RAGAS",
+        "OpenAI API",
+        "Claude",
+        "AWS Bedrock",
+        "Hybrid Retrieval",
+        "Grounding Validation",
+        "Cohere"
       ]
     },
     {
       "name": "LLMOps & Cloud",
       "level": "",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "AWS (EC2, Lambda, S3, DynamoDB, Cognito, ECR, CloudWatch)",
-        "Docker", "Kubernetes", "MLflow", "DVC", "ZenML", "CI/CD"
-      ]
+      "keywords": ["AWS (EC2, Lambda, S3, DynamoDB, Cognito, ECR, CloudWatch)", "Docker", "Kubernetes", "MLflow", "DVC", "ZenML", "CI/CD"]
     },
     {
       "name": "ML & Modelling",
       "level": "",
       "icon": "fa-solid fa-chart-line",
-      "keywords": [
-        "XGBoost", "LightGBM", "scikit-learn", "Statistical Modelling",
-        "Feature Engineering", "EDA", "Bias-Variance Analysis"
-      ]
+      "keywords": ["XGBoost", "LightGBM", "scikit-learn", "Statistical Modelling", "Feature Engineering", "EDA", "Bias-Variance Analysis"]
     },
     {
       "name": "Systems Design",
       "level": "",
       "icon": "fa-solid fa-diagram-project",
-      "keywords": [
-        "HLD/LLD Architecture", "Multi-Tenant Systems",
-        "API Design", "Microservice Interactions", "Observability"
-      ]
+      "keywords": ["HLD/LLD Architecture", "Multi-Tenant Systems", "API Design", "Microservice Interactions", "Observability"]
     },
     {
       "name": "Programming",
@@ -135,10 +134,7 @@
       "name": "Databases",
       "level": "",
       "icon": "fa-solid fa-database",
-      "keywords": [
-        "PostgreSQL", "Qdrant", "ChromaDB", "Pinecone",
-        "DynamoDB", "MongoDB", "Redis"
-      ]
+      "keywords": ["PostgreSQL", "Qdrant", "ChromaDB", "Pinecone", "DynamoDB", "MongoDB", "Redis"]
     }
   ],
   "languages": [
@@ -189,9 +185,7 @@
     {
       "name": "Vehicle Insurance Purchase Prediction",
       "summary": "ML pipeline to predict insurance purchase likelihood using tabular vehicle and customer data. Focused on probability calibration and threshold tuning to align with business risk.",
-      "highlights": [
-        "Deployed using FastAPI with CI/CD and cloud infrastructure."
-      ],
+      "highlights": ["Deployed using FastAPI with CI/CD and cloud infrastructure."],
       "url": "https://github.com/AyanArshad02/MLOps-Vehicle-Insurance-Predictor",
       "startDate": "2024-01-01",
       "endDate": "2024-05-01"
@@ -199,9 +193,7 @@
     {
       "name": "System Threat Forecaster (Malware Prediction)",
       "summary": "End-to-end ML pipeline to predict system infection using telemetry data. Built at IIT Madras; scored 93/100 in final evaluation.",
-      "highlights": [
-        "EDA, feature engineering, and ensemble modelling using XGBoost and LightGBM."
-      ],
+      "highlights": ["EDA, feature engineering, and ensemble modelling using XGBoost and LightGBM."],
       "startDate": "2023-06-01",
       "endDate": "2023-12-01"
     }

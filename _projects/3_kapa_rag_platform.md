@@ -11,7 +11,7 @@ github: https://github.com/AyanArshad02/kapa-inspired-rag-mcp
 
 After shipping the RAG chatbot at Softeon, I wanted to build the same class of system publicly — with every decision documented, every experiment logged, and the evaluation infrastructure treated as seriously as the retrieval infrastructure.
 
-Kapa.ai does this for developer documentation at scale. I wanted to understand *exactly* how a system like that is built, from chunking strategy through to CI/CD gates on retrieval quality.
+Kapa.ai does this for developer documentation at scale. I wanted to understand _exactly_ how a system like that is built, from chunking strategy through to CI/CD gates on retrieval quality.
 
 ---
 
@@ -22,17 +22,20 @@ Before writing any production code, I ran a structured experiment: **12 combinat
 The 78 Q&A pairs were created once and frozen before any experiments ran. No leakage, no post-hoc selection.
 
 ### Chunking strategies tested
+
 - `RecursiveCharacterTextSplitter` (baseline)
 - `HeadingAwareChunker` (custom — splits on markdown/HTML headings)
 - `SlidingWindowChunker`
 - `CodeBlockAwareChunker`
 
 ### Retrieval methods tested
+
 - Dense only (cosine similarity)
 - Sparse only (BM25)
 - Hybrid with Reciprocal Rank Fusion (RRF)
 
 ### Reranker
+
 - Cohere `rerank-english-v3.0` applied as final pass
 
 ### What won
@@ -69,12 +72,12 @@ Client → FastAPI → Retrieval Pipeline → GPT-4o → Streaming SSE response
 
 Evaluated on the frozen 78 Q&A set against FastAPI and Supabase documentation:
 
-| Metric | Score | Gate threshold |
-|--------|-------|----------------|
-| Faithfulness | 0.908 | ≥ 0.85 ✅ |
-| Answer Relevancy | 0.832 | ≥ 0.80 ✅ |
-| Context Precision | 0.892 | ≥ 0.85 ✅ |
-| Context Recall | 0.949 | ≥ 0.90 ✅ |
+| Metric            | Score | Gate threshold |
+| ----------------- | ----- | -------------- |
+| Faithfulness      | 0.908 | ≥ 0.85 ✅      |
+| Answer Relevancy  | 0.832 | ≥ 0.80 ✅      |
+| Context Precision | 0.892 | ≥ 0.85 ✅      |
+| Context Recall    | 0.949 | ≥ 0.90 ✅      |
 
 ---
 
