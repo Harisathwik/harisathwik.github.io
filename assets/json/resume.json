@@ -1,0 +1,209 @@
+{
+  "basics": {
+    "name": "Md Ayan Arshad",
+    "label": "AI Engineer",
+    "image": "",
+    "email": "ayanarshad2002@gmail.com",
+    "phone": "+91 7377869686",
+    "url": "https://github.com/AyanArshad02",
+    "summary": "GenAI Engineer with ~2 years of production experience building reliable backend systems for RAG and agentic workflows. Architected a multi-tenant RAG chatbot at Softeon serving 500+ enterprise tenants with hybrid retrieval, tenant isolation, and observability. Built FastAPI-based RAG systems with Claude MCP integrations for agentic tool use. Passionate about context engineering, agent workflows, and shipping high-quality production AI systems. Available for US EST / EU hours.",
+    "location": {
+      "city": "Chennai",
+      "countryCode": "IN",
+      "region": "India"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "AyanArshad02",
+        "url": "https://github.com/AyanArshad02"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "md-ayan-arshad-740288248",
+        "url": "https://www.linkedin.com/in/md-ayan-arshad-740288248/"
+      },
+      {
+        "network": "Dev.to",
+        "username": "ayanarshad02",
+        "url": "https://dev.to/ayanarshad02"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Softeon",
+      "position": "GenAI Engineer",
+      "location": "Chennai, India",
+      "startDate": "2025-05-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "**Multi-Tenant RAG Chatbot — 500+ Enterprise Tenants:** Architected and led delivery of a production multi-tenant WMS chatbot; reported directly to AVP of Data Science.",
+        "Designed HLD and LLD for multi-tenant architecture using AWS (Cognito, S3, DynamoDB, Lambda, EC2); defined data flows, access boundaries, and deployment strategy.",
+        "Solved tenant isolation at the vector DB layer (Pinecone namespaces), eliminating cross-tenant data-leak risk across 500+ enterprise tenants.",
+        "Built hybrid retrieval with reranking and grounding validation; pushed faithfulness from 0.67 → 0.91 and unsupported claim rate below 4%.",
+        "Led a 2-engineer team: task breakdown, sprint planning, code reviews, and on-time delivery.",
+        "**AI-Driven Ticket Resolution System:** Led end-to-end design and delivery for Softeon's WMS support division, owning the project from architecture (HLD/LLD) to production rollout.",
+        "Built a statistically evaluated semantic retrieval system over historical tickets and documentation using PostgreSQL and ChromaDB, significantly reducing manual lookup time and unresolved ticket backlog.",
+        "Performed EDA on historical support data to analyse ticket distributions, resolution patterns, and retrieval effectiveness; optimised relevance thresholds and retrieval depth.",
+        "Designed evaluation workflows to assess retrieval precision, response usefulness, and failure cases, enabling continuous system improvement.",
+        "Implemented monitoring and logging to support reliability and future extensibility."
+      ]
+    },
+    {
+      "name": "Second Brain Labs (SBL)",
+      "position": "GenAI Engineer",
+      "location": "Remote",
+      "startDate": "2024-09-01",
+      "endDate": "2025-02-01",
+      "summary": "",
+      "highlights": [
+        "Built a LinkedIn outreach chatbot integrated with the LinkedIn API: personalised messages, multi-turn conversation handling, and lead qualification across multiple client accounts simultaneously.",
+        "System ran on GPT-4 with real campaign traffic."
+      ]
+    }
+  ],
+  "education": [],
+  "awards": [
+    {
+      "title": "Topped Programming in Python & System Command",
+      "date": "2024-01-01",
+      "awarder": "IIT Madras",
+      "summary": "Topped the Programming in Python & System Command course."
+    },
+    {
+      "title": "Machine Learning Practice Coding Exam",
+      "date": "2024-01-01",
+      "awarder": "IIT Madras",
+      "summary": "Scored 85+ in the Machine Learning Practice Coding Exam."
+    },
+    {
+      "title": "ML Project — System Threat Forecaster",
+      "date": "2024-01-01",
+      "awarder": "IIT Madras",
+      "summary": "Scored 93/100 in the ML Project final evaluation."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "GenAI & RAG",
+      "level": "",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "LangChain", "LangGraph", "LangSmith", "Custom Agent Frameworks",
+        "RAGAS", "OpenAI API", "Claude", "AWS Bedrock",
+        "Hybrid Retrieval", "Grounding Validation", "Cohere"
+      ]
+    },
+    {
+      "name": "LLMOps & Cloud",
+      "level": "",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "AWS (EC2, Lambda, S3, DynamoDB, Cognito, ECR, CloudWatch)",
+        "Docker", "Kubernetes", "MLflow", "DVC", "ZenML", "CI/CD"
+      ]
+    },
+    {
+      "name": "ML & Modelling",
+      "level": "",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "XGBoost", "LightGBM", "scikit-learn", "Statistical Modelling",
+        "Feature Engineering", "EDA", "Bias-Variance Analysis"
+      ]
+    },
+    {
+      "name": "Systems Design",
+      "level": "",
+      "icon": "fa-solid fa-diagram-project",
+      "keywords": [
+        "HLD/LLD Architecture", "Multi-Tenant Systems",
+        "API Design", "Microservice Interactions", "Observability"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "SQL", "FastAPI", "Bash"]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "PostgreSQL", "Qdrant", "ChromaDB", "Pinecone",
+        "DynamoDB", "MongoDB", "Redis"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Writing & Open Work",
+      "icon": "fa-solid fa-pen-nib",
+      "keywords": [
+        "Technical blog on Dev.to: deep dives on RAG, Agentic AI, multi-tenancy, retrieval failures, and production system design.",
+        "Production GenAI engineering content on LinkedIn (2,300+ followers) — decisions and tradeoffs tutorials never cover.",
+        "1 free RAG architecture review per month, 48-hour turnaround."
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "kapa.ai (YC S23) Inspired Multi-Tenant RAG System",
+      "summary": "Production-grade RAG backend using FastAPI. Ran 12+ retrieval pipeline combinations before settling on Heading-Aware chunking + OpenAI embeddings + Cohere reranker + Qdrant. RAGAS scores: 0.91 Faithfulness, 0.95 Context Recall, 0.89 Context Precision.",
+      "highlights": [
+        "Implemented MCP server for seamless Claude Desktop / Cursor integration, enabling agentic tool use.",
+        "Clean 3-layer architecture (Orchestrator → Strategy → Implementation) with dependency inversion for easy LLM/vector-store swaps.",
+        "Enterprise features: multi-tenancy (isolated Qdrant collections), API key auth, Redis caching, PostgreSQL conversation memory, async ingestion, rate limiting, Prometheus metrics, LangSmith tracing.",
+        "Full Docker Compose stack (PostgreSQL, Qdrant, Redis) with comprehensive unit and integration tests."
+      ],
+      "url": "https://github.com/AyanArshad02/kapa-inspired-rag-mcp",
+      "startDate": "2024-06-01",
+      "endDate": "2025-01-01"
+    },
+    {
+      "name": "Credit Card Fraud Detection — Full MLOps",
+      "summary": "End-to-end fraud detection ML pipeline with class imbalance handling, SMOTE, and reproducible experiment tracking via MLflow.",
+      "highlights": [
+        "Statistical EDA to analyse class imbalance, feature distributions, and leakage risks.",
+        "Evaluated models using ROC-AUC and precision-recall tradeoffs with MLflow experiment tracking.",
+        "Automated ML pipeline with CI/CD and retraining workflows using DVC and Kubernetes."
+      ],
+      "url": "https://github.com/AyanArshad02/Credit-Fraud-Detection",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01"
+    },
+    {
+      "name": "Vehicle Insurance Purchase Prediction",
+      "summary": "ML pipeline to predict insurance purchase likelihood using tabular vehicle and customer data. Focused on probability calibration and threshold tuning to align with business risk.",
+      "highlights": [
+        "Deployed using FastAPI with CI/CD and cloud infrastructure."
+      ],
+      "url": "https://github.com/AyanArshad02/MLOps-Vehicle-Insurance-Predictor",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01"
+    },
+    {
+      "name": "System Threat Forecaster (Malware Prediction)",
+      "summary": "End-to-end ML pipeline to predict system infection using telemetry data. Built at IIT Madras; scored 93/100 in final evaluation.",
+      "highlights": [
+        "EDA, feature engineering, and ensemble modelling using XGBoost and LightGBM."
+      ],
+      "startDate": "2023-06-01",
+      "endDate": "2023-12-01"
+    }
+  ]
+}

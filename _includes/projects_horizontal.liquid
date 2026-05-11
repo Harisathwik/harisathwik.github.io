@@ -1,0 +1,28 @@
+<div class="col mb-4">
+  <div class="card hoverable">
+    <div class="row no-gutters align-items-center">
+      <div class="col-md-9">
+        <div class="card-body">
+          <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="text-decoration-none">
+            <h3 class="card-title">{{ project.title }}</h3>
+            <p class="card-text text-muted">{{ project.description }}</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex align-items-center justify-content-center p-3">
+        {% if project.github %}
+          <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer"
+             class="btn btn-sm btn-outline-secondary w-75 text-center">
+            <i class="fa-brands fa-github mr-1"></i> View on GitHub
+          </a>
+        {% elsif project.proprietary %}
+          <p class="text-muted small text-center mb-0">
+            <i class="fa-solid fa-lock mb-1"></i><br>
+            Built at Softeon<br>
+            <span class="font-italic">Code is proprietary</span>
+          </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
