@@ -1,24 +1,6 @@
 github_repos:
-  - repo: AyanArshad02/kapa-inspired-rag-mcp
-    name: "kapa.ai-Inspired RAG Platform"
-    description: "Production-grade multi-tenant RAG platform. 12-combination retrieval experiment across chunking strategies and retrieval methods. RAGAS-gated CI/CD. MCP server for Claude Desktop and Cursor."
+  - repo: Harisathwik/Fraud_Detection_Production_System
+    name: "Fraud Detection Production System"
+    description: "Automated, end-to-end fraud detection ML pipeline featuring model versioning, automated retraining, and drift monitoring."
     language: Python
-    topics: [RAG, LLM, FastAPI, Qdrant, MCP]
-
-  - repo: AyanArshad02/Credit-Fraud-Detection
-    name: "Credit Fraud Detection"
-    description: "Credit card fraud detection with ML. Handles extreme class imbalance using SMOTE. Compared Logistic Regression, Random Forest, and XGBoost across precision-recall tradeoffs."
-    language: Python
-    topics: [ML, Classification, Imbalanced Data]
-
-  - repo: AyanArshad02/MLOps-Vehicle-Insurance-Predictor
-    name: "MLOps Vehicle Insurance Predictor"
-    description: "End-to-end MLOps pipeline for vehicle insurance premium prediction. DVC for data versioning, MLflow for experiment tracking, Docker, and CI/CD."
-    language: Python
-    topics: [MLOps, MLflow, DVC, Docker]
-
-  - repo: AyanArshad02/email-marketing-campaign-optimization-using-ML
-    name: "Email Campaign Optimization"
-    description: "ML model to optimise email marketing campaign targeting. Predicts conversion probability to identify high-value customer segments and reduce spend."
-    language: Python
-    topics: [ML, Marketing]
+    topics: [XGBoost, ZenML, MLflow, Evidently]

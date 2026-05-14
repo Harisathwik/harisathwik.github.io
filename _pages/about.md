@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: AI Engineer - Building Enterprise Agentic Systems
 
 profile:
   align: right
-  image: ayan.png
+  image: me.jpg
   image_circular: false
   more_info:
 
@@ -22,24 +22,28 @@ latest_posts:
   limit: 3
 ---
 
-I build GenAI and Agentic AI systems for production. RAG pipelines, multi-tenant architectures, agentic workflows — the full stack from design to deployment.
+I build enterprise-grade AI applications with a strict focus on governance, robustness, and industrial-scale effectiveness. From architecting RAG pipelines for financial institutions to building optimized LLMOps lifecycles, I ensure AI systems work reliably in production without compromising on efficiency.
 
-At Softeon I joined as one of the first people on the Data Science team. Talked directly with domain experts and AVPs, took requirements from the customer support team, designed the architecture, and shipped with a small team. No playbook, figured it out end to end.
+### What I build
 
-At Softeon I shipped two systems:
+I specialize in making AI production-ready. My work typically involves:
 
-1. **Multi-tenant RAG chatbot** across 500+ enterprise clients. Tenant isolation at the vector DB layer, hybrid retrieval with cross-encoder reranking. Faithfulness pushed from 0.67 to 0.91. Unsupported claim rate below 4%.
+1.  **Enterprise RAG & Governance:** Designing architectures that prioritize data integrity and factuality, especially for high-stakes environments like fintech.
+2.  **LLMOps at Scale:** Architecting end-to-end lifecycles that streamline the transition from experimentation to live deployment.
+3.  **Inference Optimization:** Improving model efficiency via quantization and caching—I've previously pushed prediction latency down by 40% while cutting costs by 25%.
 
-2. **AI-powered ticket resolution system** for the WMS support division. Took requirements directly from the support team, built semantic retrieval over historical tickets and documentation, rolled it out end to end.
+### At KPMG, I ship:
+*   **Multi-tenant GenAI architectures** for financial clients, accelerating model inference and ensuring strict access boundaries.
+*   **Automated CI/CD & LLMOps pipelines** using Azure and AWS, reducing deployment cycles by 30%.
+*   **Real-time telemetry & monitoring** to detect data drift and measure generative model quality (factuality and response time).
 
-Outside of work I built a kapa.ai (YC S23) inspired multi-tenant RAG platform. 12+ retrieval pipeline combinations tested before settling on the final stack. RAGAS scores: 0.91 faithfulness, 0.95 context recall, 0.89 context precision. MCP server integrated with Claude Desktop. Full observability with Prometheus and Grafana. Fully documented and containerised with Docker.
+### Outside work
+I'm currently focused on building robust AI infrastructure and exploring the boundaries of multi-agent workflows. I am particularly interested in how we can make continuous deployment for LLMs as reliable as traditional software engineering.
 
-I design systems keeping all the tradeoffs in mind and write about the decisions tutorials never cover, on [Dev.to](https://dev.to/ayanarshad02) and [LinkedIn](https://www.linkedin.com/in/md-ayan-arshad-740288248/).
-
-Looking for a fast-paced startup where I can own problems end to end, talk to users, and ship for them directly.
+I am looking to transition into a high-growth product company or startup—specifically within **Data Infrastructure, B2B SaaS, or Fintech**.
 
 ---
 
-**I do one free RAG and Agents architecture review per month. 48 hours. I'll find where your system breaks before your users do.**
+**I’m always open to collaborations or conversations around agentic workflows, model compression, and making AI systems truly production-ready.**
 
-[DM me on LinkedIn →](https://www.linkedin.com/in/md-ayan-arshad-740288248/)
+[Connect with me on LinkedIn →](https://www.linkedin.com/in/harisathwik-veerla/)

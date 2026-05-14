@@ -1,9 +1,10 @@
 # Social media links and usernames
-cv_pdf: /assets/pdf/Md Ayan Arshad - AI Engineer.pdf
-email: ayanarshad2002@gmail.com
-github_username: AyanArshad02
-linkedin_username: md-ayan-arshad-740288248
+cv_pdf: /assets/pdf/Harisathwik_Resume.pdf
+email: harisathwikveerla@gmail.com
+github_username: Harisathwik
+linkedin_username: harisathwik-veerla
+twitter_username: Hari_Sathwik
 custom_social:
-  logo: https://dev.to/favicon.ico
-  title: Dev.to
-  url: https://dev.to/ayanarshad02
+  - title: X
+    url: https://x.com/Hari_Sathwik
+    icon: fa-brands fa-x-twitter

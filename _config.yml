@@ -3,23 +3,23 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Md Ayan
+first_name: Harisathwik
 middle_name:
-last_name: Arshad
+last_name: Veerla
 contact_note: >
-  Best way to reach me is via LinkedIn or email.
+  Passionate about making AI production-ready.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  GenAI & Agentic AI Engineer. Building RAG systems, agents, and AI infrastructure that works in production.
+  AI Engineer - Building Enterprise Agentic Systems
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: GenAI, Agentic AI, RAG, LLM, AI Engineer, portfolio
+keywords: AI Engineer, LLMOps, RAG, GenAI, Portfolio
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://ayanarshad02.github.io # the base hostname & protocol for your site
+url: https://harisathwik.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -90,7 +90,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Ayan's Blog # blog_name will be displayed in your blog page
+blog_name: Harisathwik's Blog # blog_name will be displayed in your blog page
 blog_description: Real decisions and tradeoffs behind AI systems
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -128,10 +128,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
-  - name: dev.to
-    rss_url: https://dev.to/feed/ayanarshad02
-    categories: [articles]
-    tags: [GenAI, RAG, agents, LLM]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -272,8 +268,8 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Arshad]
-  first_name: [Md Ayan, Ayan]
+  last_name: [Veerla]
+  first_name: [Harisathwik]
 
   style: apa
   locale: en
