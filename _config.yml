@@ -263,6 +263,8 @@ jekyll-archives:
 display_tags: ["RAG", "LLM", "agents", "GenAI", "production"] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
 
+safe: false # Added to ensure all plugins are loaded
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
